@@ -1,0 +1,9 @@
+curl -X POST http://localhost:8000/api/ponentes \
+  -H "Content-Type: application/json" \
+  -d '{
+    "nombre": "Dra. Alicia Ramírez",
+    "biografia": "Experta en Inteligencia Artificial",
+    "especialidad": "IA"
+  }'
+
+
